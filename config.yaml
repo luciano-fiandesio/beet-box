@@ -1,4 +1,5 @@
 directory: /music/beets-in
+library: /home/vagrant/beets/library.db
 
 import:
   move: yes
@@ -10,5 +11,5 @@ paths:
 copyartifacts:
   extensions: .log .jpg .png
   print_ignored: yes
-user_token: zkRBJwwzxfadaMdJhETlkMTZeqBxVbIlBUqwppID
+
 plugins: fetchart lastgenre embedart discogs

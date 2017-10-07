@@ -18,7 +18,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   #config.vm.network "forwarded_port", guest: 8000, host: 8000
 
   # Shared folder
-  config.vm.synced_folder "vagrant/", "/home/vagrant", create: true
+  #config.vm.synced_folder "vagrant/", "/home/vagrant", create: true
   config.vm.synced_folder "~/Music", "/music"
   config.vm.provision "file", source: "config.yaml", destination: "config.yaml"
 end
