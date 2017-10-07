@@ -1,0 +1,14 @@
+directory: /music/beets-in
+
+import:
+  move: yes
+  write: yes
+  copy: no
+
+paths:
+  default: $albumartist - $album%aunique{}/$track -  $albumartist - $title
+copyartifacts:
+  extensions: .log .jpg .png
+  print_ignored: yes
+user_token: zkRBJwwzxfadaMdJhETlkMTZeqBxVbIlBUqwppID
+plugins: fetchart lastgenre embedart discogs
